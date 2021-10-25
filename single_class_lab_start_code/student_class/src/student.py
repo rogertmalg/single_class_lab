@@ -8,3 +8,10 @@ class Student:
 
     def test_student_has_cohort(self):
         return student.cohort
+
+    def test_student_can_update_name(self):
+        student.name = "Mike"
+        
+    def test_student_can_change_cohort(self):
+        student.cohort = "G21"
+
