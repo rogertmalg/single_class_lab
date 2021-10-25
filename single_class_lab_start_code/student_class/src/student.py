@@ -5,3 +5,6 @@ class Student:
 
     def test_student_has_name(self):
         return student.name
+
+    def test_student_has_cohort(self):
+        return student.cohort
